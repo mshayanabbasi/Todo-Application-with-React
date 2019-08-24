@@ -1,0 +1,42 @@
+.todo-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    border: 1px solid lightgrey;
+    padding: 8px;
+  }
+  .btn-update {
+    background: green;
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .btn-delete {
+    background: red;
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  h1 {
+    color: Purple;
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    flex-direction: column
+    /* height: 100vh */
+
+  }
+
+  
