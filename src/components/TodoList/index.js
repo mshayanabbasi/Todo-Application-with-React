@@ -1,32 +1,24 @@
-
 import React from 'react';
+import ListItem from '../ListItem';
+import './style.css'
 
-import ListItem from '../ListITem'
-
-
-const List = (props) => {
-
-
-    const { todos, deleteTodo, isEdit, handleUpdate, handleChange, title, updateTitle } = props
+const TodoList = (props) => {
+    const { title, todos, isEdit, handleUpdate, deleteTodo } = props
     return (
-        <div>
-            {todos && todos.map((item, i) => {
+        <div className="container">
+            {todos && todos.map((todo, i) => {
                 return (
-                    <ListItem
+                    <ListItem 
                         isEdit={isEdit}
                         title={title}
                         index={i}
-                        
+                        todo={todo}
                         handleUpdate={handleUpdate}
                         deleteTodo={deleteTodo}
-
-                        item={item}
                     />
                 )
-            }
-
-            )}
+            })}
         </div>
     )
 }
-export default List
+export default TodoList

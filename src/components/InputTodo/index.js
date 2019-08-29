@@ -1,24 +1,26 @@
-
-
-
 import React from 'react';
-
-
+import './style.css'
 const Input = (props) => {
     const { handleChange, addTodo } = props
     return (
-        <div>
-
-            <input
+       
+        
+        <div className="inputContainer">
+        
+            <input className="inputTodo"
                 name="title"
                 onChange={handleChange}
-                type="text" placeholder=" input data"
-            />
-            <input type="submit"
+                placeholder="Enter Todo"
+                type="text"
+            />   
+            <input className="inputbtn"
+                type="submit"
                 onClick={addTodo}
             />
+            
+
+        
         </div>
     )
 }
-
 export default Input

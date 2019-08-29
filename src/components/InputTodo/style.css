@@ -1,0 +1,40 @@
+.inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+.inputTodo {
+    display: flex;
+    padding: 1px;
+    margin-bottom: 360px;
+    justify-content: center;
+    align-items: center;
+    font-size: 22pt;
+    width: 100;
+    border: 1px solid palegoldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+.inputbtn {
+    display: flex;
+    padding: 10px 25px;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    border: 3px solid palegoldenrod;
+    background-color: white;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}

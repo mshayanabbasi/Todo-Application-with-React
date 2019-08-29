@@ -1,10 +1,12 @@
-
-import Header from './Header';
+import Header from './Header'
 import Input from './InputTodo';
-import List from './TodoList'
+import TodoList from './TodoList';
+import Footer from './Footer';
+
 
 export {
     Header,
     Input,
-    List
+    TodoList,
+    Footer
 }

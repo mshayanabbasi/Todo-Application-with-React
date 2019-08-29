@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import {Todo} from './containers'
+import { Todo } from './container';
+
 
 function App() {
   return (

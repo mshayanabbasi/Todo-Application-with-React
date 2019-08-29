@@ -1,0 +1,42 @@
+.inputUpdate {
+    display: flex;
+    width: 100;
+    border-radius: 5px;
+    border: 2px solid palegoldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    flex-direction: row;
+}
+.Updatebtn {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid palegoldenrod;
+    color: green;
+    flex-direction: row;
+
+}
+.Deletebtn {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid palegoldenrod;
+    color: red;
+    padding: 10px 20px;
+    flex-direction: row;    
+}
+.listContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}

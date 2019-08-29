@@ -1,17 +1,19 @@
-
-
-.headerContainer{
+.headerContainer {
     display: flex;
-    background-color: black ;
-height: 100px;
-width: 100%;
-justify-content: center;
-align-items: center;
-
+    justify-content: center;
+    background-color:   #b91d47;
+    height: 105px;
+    width: 100%;
+    align-items: center;
+    border: 2px solid #c71f4c;
 }
-.titleStyle{
-    width: 10%; 
-    /* background-color: red;   */
-    color:#ffff;
+.titleStyle {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+    align-items: center;
     font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-style: oblique;
 }
