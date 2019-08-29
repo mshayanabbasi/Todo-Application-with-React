@@ -58,7 +58,9 @@ class Todo extends Component {
                     isEdit={this.state.isEdit}
                     deleteTodo={this.deleteTodo}
                 />
-                <Footer />
+                <Footer 
+                    Name="Shayan"
+                />
             </div>
          )
     }
